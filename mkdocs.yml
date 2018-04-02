@@ -1,0 +1,24 @@
+site_name: Immute Documentation
+site_url: https://lpghatguy.github.io/immute/
+repo_name: LPGhatguy/immute
+repo_url: https://github.com/LPGhatguy/immute
+
+theme:
+  name: material
+  palette:
+    primary: 'Orange'
+    accent: 'Orange'
+  font:
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+
+pages:
+  - Home: index.md
+  - API Reference: api-reference.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
