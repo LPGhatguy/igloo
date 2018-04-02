@@ -1,0 +1,5 @@
+{
+  "name": "immute",
+  "servePort": 8000,
+  "partitions": {}
+}
