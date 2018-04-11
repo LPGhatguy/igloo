@@ -1,7 +1,7 @@
-site_name: Immute Documentation
-site_url: https://lpghatguy.github.io/immute/
-repo_name: LPGhatguy/immute
-repo_url: https://github.com/LPGhatguy/immute
+site_name: Igloo Documentation
+site_url: https://lpghatguy.github.io/igloo/
+repo_name: LPGhatguy/igloo
+repo_url: https://github.com/LPGhatguy/igloo
 
 theme:
   name: material
