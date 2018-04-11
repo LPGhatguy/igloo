@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://lpghatguy.github.io/immute/api-reference/">
+        <link rel="canonical" href="https://lpghatguy.github.io/igloo/api-reference/">
       
       
       
@@ -38,7 +38,7 @@
     
     
       
-        <title>API Reference - Immute Documentation</title>
+        <title>API Reference - Igloo Documentation</title>
       
     
     
@@ -104,7 +104,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://lpghatguy.github.io/immute/" title="Immute Documentation" class="md-header-nav__button md-logo">
+        <a href="https://lpghatguy.github.io/igloo/" title="Igloo Documentation" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -118,7 +118,7 @@
           
             
               <span class="md-header-nav__topic">
-                Immute Documentation
+                Igloo Documentation
               </span>
               <span class="md-header-nav__topic">
                 API Reference
@@ -166,7 +166,7 @@
   
 
 
-  <a href="https://github.com/LPGhatguy/immute/" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/LPGhatguy/igloo/" title="Go to repository" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -175,7 +175,7 @@
       </div>
     
     <div class="md-source__repository">
-      LPGhatguy/immute
+      LPGhatguy/igloo
     </div>
   </a>
 
@@ -205,7 +205,7 @@
         <i class="md-icon"></i>
       
     </span>
-    Immute Documentation
+    Igloo Documentation
   </label>
   
     <div class="md-nav__source">
@@ -215,7 +215,7 @@
   
 
 
-  <a href="https://github.com/LPGhatguy/immute/" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/LPGhatguy/igloo/" title="Go to repository" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -224,7 +224,7 @@
       </div>
     
     <div class="md-source__repository">
-      LPGhatguy/immute
+      LPGhatguy/igloo
     </div>
   </a>
 
@@ -285,8 +285,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#immutenone" title="Immute.None" class="md-nav__link">
-    Immute.None
+  <a href="#igloonone" title="Igloo.None" class="md-nav__link">
+    Igloo.None
   </a>
   
 </li>
@@ -356,8 +356,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#immutenone" title="Immute.None" class="md-nav__link">
-    Immute.None
+  <a href="#igloonone" title="Igloo.None" class="md-nav__link">
+    Igloo.None
   </a>
   
 </li>
@@ -403,28 +403,28 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/LPGhatguy/immute/edit/master/docs/api-reference.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/LPGhatguy/igloo/edit/master/docs/api-reference.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="api-reference">API Reference<a class="headerlink" href="#api-reference" title="Permanent link">&para;</a></h1>
 <h2 id="constants">Constants<a class="headerlink" href="#constants" title="Permanent link">&para;</a></h2>
-<h3 id="immutenone">Immute.None<a class="headerlink" href="#immutenone" title="Permanent link">&para;</a></h3>
+<h3 id="igloonone">Igloo.None<a class="headerlink" href="#igloonone" title="Permanent link">&para;</a></h3>
 <p>Represents a value that is intentionally present, but should be interpreted
 as <code>nil</code>.</p>
-<p>Immute.None is used by included utilities to make removing values more
+<p>Igloo.None is used by included utilities to make removing values more
 ergonomic.</p>
 <h2 id="dictionary">Dictionary<a class="headerlink" href="#dictionary" title="Permanent link">&para;</a></h2>
 <p>Defines utilities for working with 'dictionary-like' tables.</p>
 <p>Dictionaries can be indexed by any value, but don't have the ordering
 expectations that lists have.</p>
 <h3 id="join">join<a class="headerlink" href="#join" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>Immute.Dictionary.join(...dictionaries) -&gt; dictionary
+<div class="codehilite"><pre><span></span>Igloo.Dictionary.join(...dictionaries) -&gt; dictionary
 </pre></div>
 
 
 <p>Combine a number of dictionary-like tables into a new table.</p>
 <p>Keys specified in later tables will overwrite keys in previous tables.</p>
-<p>Use <code>Immute.None</code> as a value to remove a value. This is necessary because
+<p>Use <code>Igloo.None</code> as a value to remove a value. This is necessary because
 Lua does not distinguish between a value not being present in a table and a
 value being <code>nil</code>.</p>
                 

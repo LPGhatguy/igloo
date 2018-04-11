@@ -2,17 +2,17 @@
     "docs": [
         {
             "location": "/",
-            "text": "Home\n\u00b6\n\n\nThis is the documentation home for Immute, a collection of utilities for working with immutable data in Roblox Lua.",
+            "text": "Home\n\u00b6\n\n\nThis is the documentation home for Igloo, a collection of utilities for working with immutable data in Roblox Lua.",
             "title": "Home"
         },
         {
             "location": "/#home",
-            "text": "This is the documentation home for Immute, a collection of utilities for working with immutable data in Roblox Lua.",
+            "text": "This is the documentation home for Igloo, a collection of utilities for working with immutable data in Roblox Lua.",
             "title": "Home"
         },
         {
             "location": "/api-reference/",
-            "text": "API Reference\n\u00b6\n\n\nConstants\n\u00b6\n\n\nImmute.None\n\u00b6\n\n\nRepresents a value that is intentionally present, but should be interpreted\nas \nnil\n.\n\n\nImmute.None is used by included utilities to make removing values more\nergonomic.\n\n\nDictionary\n\u00b6\n\n\nDefines utilities for working with 'dictionary-like' tables.\n\n\nDictionaries can be indexed by any value, but don't have the ordering\nexpectations that lists have.\n\n\njoin\n\u00b6\n\n\nImmute.Dictionary.join(...dictionaries) -> dictionary\n\n\n\n\n\nCombine a number of dictionary-like tables into a new table.\n\n\nKeys specified in later tables will overwrite keys in previous tables.\n\n\nUse \nImmute.None\n as a value to remove a value. This is necessary because\nLua does not distinguish between a value not being present in a table and a\nvalue being \nnil\n.",
+            "text": "API Reference\n\u00b6\n\n\nConstants\n\u00b6\n\n\nIgloo.None\n\u00b6\n\n\nRepresents a value that is intentionally present, but should be interpreted\nas \nnil\n.\n\n\nIgloo.None is used by included utilities to make removing values more\nergonomic.\n\n\nDictionary\n\u00b6\n\n\nDefines utilities for working with 'dictionary-like' tables.\n\n\nDictionaries can be indexed by any value, but don't have the ordering\nexpectations that lists have.\n\n\njoin\n\u00b6\n\n\nIgloo.Dictionary.join(...dictionaries) -> dictionary\n\n\n\n\n\nCombine a number of dictionary-like tables into a new table.\n\n\nKeys specified in later tables will overwrite keys in previous tables.\n\n\nUse \nIgloo.None\n as a value to remove a value. This is necessary because\nLua does not distinguish between a value not being present in a table and a\nvalue being \nnil\n.",
             "title": "API Reference"
         },
         {
@@ -26,9 +26,9 @@
             "title": "Constants"
         },
         {
-            "location": "/api-reference/#immutenone",
-            "text": "Represents a value that is intentionally present, but should be interpreted\nas  nil .  Immute.None is used by included utilities to make removing values more\nergonomic.",
-            "title": "Immute.None"
+            "location": "/api-reference/#igloonone",
+            "text": "Represents a value that is intentionally present, but should be interpreted\nas  nil .  Igloo.None is used by included utilities to make removing values more\nergonomic.",
+            "title": "Igloo.None"
         },
         {
             "location": "/api-reference/#dictionary",
@@ -37,7 +37,7 @@
         },
         {
             "location": "/api-reference/#join",
-            "text": "Immute.Dictionary.join(...dictionaries) -> dictionary  Combine a number of dictionary-like tables into a new table.  Keys specified in later tables will overwrite keys in previous tables.  Use  Immute.None  as a value to remove a value. This is necessary because\nLua does not distinguish between a value not being present in a table and a\nvalue being  nil .",
+            "text": "Igloo.Dictionary.join(...dictionaries) -> dictionary  Combine a number of dictionary-like tables into a new table.  Keys specified in later tables will overwrite keys in previous tables.  Use  Igloo.None  as a value to remove a value. This is necessary because\nLua does not distinguish between a value not being present in a table and a\nvalue being  nil .",
             "title": "join"
         }
     ]
